@@ -49,6 +49,7 @@ public class LogInPageTestRunner {
 		String expectedStr=GetData.fromExcel("AmazonTestCase.xlsx", "Data", 8, 0);
 		System.out.println("expectedStr--> " +  expectedStr);
 		Assert.assertEquals( actualStr, expectedStr);
+		System.out.println("Test case is passed");
 	}
 
 	
